@@ -3,10 +3,51 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "云音乐",
+				"navigationBarBackgroundColor": "#dc4238",
+				"navigationBarTextStyle": "white"
 			}
+		}, {
+			"path": "pages/play/play",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	],
+    ],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#00aa00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "乐库",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/clickHome1.png"
+			},
+			{
+				"pagePath": "pages/play/play",
+				"text": "播放",
+				"iconPath": "static/icon/play.png",
+				"selectedIconPath": "static/icon/clickPlay.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/icon/me.png",
+				"selectedIconPath": "static/icon/clickMe.png"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

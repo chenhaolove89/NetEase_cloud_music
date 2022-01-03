@@ -1,0 +1,13 @@
+.swiper.data-v-550e5254 {
+  display: flex;
+  justify-content: center;
+}
+.swiperImages.data-v-550e5254 {
+  width: 98%;
+  height: 400rpx;
+}
+.swiperImages .swiperImage.data-v-550e5254 {
+  width: 100%;
+  height: 100%;
+}
+

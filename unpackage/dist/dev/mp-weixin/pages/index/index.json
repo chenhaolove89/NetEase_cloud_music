@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "云音乐",
+  "navigationBarBackgroundColor": "#dc4238",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "my-swiper": "/components/page_swiper/page_swiper",
+    "my-tobar": "/components/play_tobar/play_tobar"
+  }
+}
